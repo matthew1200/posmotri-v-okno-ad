@@ -103,3 +103,65 @@ ol {
   flex-direction: column;
   gap: 30px;
 }
+
+.title {
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 0.94;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__card-link {
+  display: block;
+  margin-inline: 2px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.content__video-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.content__video-card-description-container {
+  flex: 1;
+  min-inline-size: 0;
+}
+
+.content__video-card-title {
+  overflow: hidden;
+  margin-block-end: 6px;
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.content__video-card-description {
+  display: -webkit-box;
+  overflow: hidden;
+  line-height: 0.9;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.content__video-card-thumbnail {
+  display: block;
+  flex: none;
+  inline-size: 194px;
+  block-size: 103px;
+  object-fit: cover;
+  object-position: center;
+}
